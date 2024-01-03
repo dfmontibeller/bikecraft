@@ -65,9 +65,13 @@ header {
 }
 
 .subtitulo {
+  align-self: center;
+  background-image: url("./imagens/onda.svg");
+}
+
+.subtitulo-h2 {
   font-size: 4rem;
   text-align: right;
-  align-self: center;
   color: #c6c6c6;
   padding: 2.5rem;
 }
