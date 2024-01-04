@@ -46,7 +46,7 @@ header {
   justify-items: end;
 }
 
-h1::after {
+h1::before {
   content: "";
   background: #e21;
   display: block;
@@ -105,7 +105,7 @@ a:hover {
 }
 
 .argumentos-itens:hover {
-  border-left: #e21 solid 3.5px;
+  border-left: #e21 solid 4px;
 }
 
 .argumentos-texto p {
@@ -152,6 +152,11 @@ p {
 
 a {
   text-decoration: none;
+}
+
+ul {
+  margin: 0px;
+  padding: 0px;
 }
 
 li {
