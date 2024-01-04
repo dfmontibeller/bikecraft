@@ -46,13 +46,15 @@ header {
   justify-items: end;
 }
 
-.detalhe {
-  width: 3.75rem;
-  height: 0.25rem;
-  background-color: #e21;
+h1::after {
+  content: "";
+  background: #e21;
+  display: block;
   position: absolute;
   top: 1.875rem;
   right: -1.875rem;
+  width: 3.75rem;
+  height: 0.25rem;
 }
 
 .botao {
